@@ -43,9 +43,10 @@ const ChatRoom = ({chatter, groupFriends, user}) => {
 
     return (
         <div className='chatRoom'>
-           <h2 style={{ borderBottom: '1px solid #484848' , paddingLeft: 16, paddingBottom: 8}} >
-               {capitalize(chatter)} ({groupFriends.map((friend) => {return friend+ ' '})})
+           <h2 style={{ paddingLeft: 16}} >
+               {capitalize(chatter)}
            </h2>
+            <div style={{borderBottom: '1px solid #484848', paddingLeft: 16, paddingBottom: 8}}>{groupFriends.map((friend) => {return friend + ', '})}</div>
             <div className='scroller'>
                 {messages.map((message, index) => {
                     return (
