@@ -1,0 +1,50 @@
+.friendsContainer {
+    width: 30vw;
+    padding: 0 24px;
+}
+
+.inputFriend {
+    height: 32px;
+    border-radius: 8px;
+    border: none;
+    padding: 0 16px;
+    margin-right: 16px;
+    margin-bottom: 8px;
+    background: #fafafa11;
+    color: #f2f2f2;
+}
+
+.friendList {
+    background: #fafafa11;
+    height: 40px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 40px;
+    padding: 0 16px;
+    margin-bottom: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+
+.deleteButton {
+    width: 24px;
+    height: 24px;
+    border-radius: 90px;
+    background-color: #ff6f61;
+    outline: none;
+    border: none;
+    margin: 8px 0 8px auto;
+}
+
+.inputGroup {
+    height: 32px;
+    border-radius: 8px;
+    border: none;
+    padding: 0 16px;
+    margin-right: 16px;
+    margin-bottom: 8px;
+    background: #fafafa11;
+    color: #f2f2f2;
+    margin-top: 4px
+}
